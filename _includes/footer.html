@@ -1,0 +1,23 @@
+<footer>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	    var js, fjs = d.getElementsByTagName(s)[0];
+	    if (d.getElementById(id)) return;
+	    js = d.createElement(s); js.id = id;
+	    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=459876517447700";
+	    fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	</script>
+
+    <div class="row">
+        <div class="col-lg-8">
+            <p>&copy; 2016 <b>{{ site.data.global.footer_text }}</b></p>
+        </div>
+        <div class="col-lg-1">
+            <div class="fb-share-button" data-href="http://www.rotaract4540.org" data-type="button_count"></div>
+        </div>
+        <div class="col-lg-3">
+            <div class="fb-like" data-href="{{ site.data.global.contact.facebookFanPage }}" data-width="225" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
+        </div>
+    </div>
+</footer>

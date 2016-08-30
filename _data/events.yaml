@@ -1,0 +1,31 @@
+# the banner name is the md5(shortName) + jpg
+-
+    shortName: ADIRC
+    fullName: Assembléia Distrital de Rotaract Clubs
+    description: Evento para a capacitação dos sócios dos Rotaract Clubs do Distrito 4540, visando cada vez mais o profissionalismo para a atuação dos clubes, aumentando o imacto postivo do trabalho dos clubes na comunidade.
+    banner:
+    url:
+-
+    shortName: CODIRC
+    fullName: Conferência Distrital de Rotaract Clubs
+    description: A CODIRC, ou Conferência Distrital de Rotaract Clubs, é um evento que reúne rotaractianos de todo o Distrito para celebrar as realizações do Rotaract naquela gestão, avaliar projetos executados, contribuir para uma maior integração entre membros de diversos clubes, prover um ambiente que fomente a troca de ideias, informações e o fortalecimento do espírito de cooperação e amizade.
+    banner:
+    url:
+-
+    shortName: ENPARC
+    fullName: Encontro Paulista de Rotaract Clubs
+    description: Jovens lideranças se reúnem num ambiente de intenso companheirismo para trocar ideias e levá-las de volta a suas comunidades para entrar em ação. Não, não é um festival. É o ENPARC. A oportunidade que Rotaractianos de todo o Estado de São Paulo (e muitas vezes além) aguardam ansiosamente para conhecer e rever companheiros e, principalmente, suas ideias e ações.
+    banner:
+    url:
+-
+    shortName: EMIRC
+    fullName: Encontro Mineiro de Rotaract Clubs
+    description: Jovens lideranças se reúnem num ambiente de intenso companheirismo para trocar ideias e levá-las de volta a suas comunidades para entrar em ação. Não, não é um festival. É o ENPARC. A oportunidade que Rotaractianos de todo o Estado de Minas Gerais (e muitas vezes além) aguardam ansiosamente para conhecer e rever companheiros e, principalmente, suas ideias e ações.
+    banner:
+    url:
+-
+    shortName: CONARC
+    fullName: Conferência Nacional de Rotaract Clubs
+    description: A CONARC, ou Conferência Nacional de Rotaract Clubs, é um evento que reúne rotaractianos de todo o Brasil, proporncinando uma grande troca de experiências e melhores práticas no servir, além de premiar os melhores projetos, contribuir para uma maior integração entre membros de diversos clubes, prover um ambiente que fomente a troca de ideias, informações e o fortalecimento do espírito de cooperação e amizade.
+    banner:
+    url:

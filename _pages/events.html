@@ -1,0 +1,26 @@
+---
+layout: default
+title: "Eventos"
+pageHeader: "Eventos de Rotaract"
+permalink: /events/
+---
+{% for event in site.data.events %}
+<div class="row">
+    <div class="col-md-7">
+        <a target="_blank" href="{{ event.url }}">
+            <img class="img-responsive" src="{{ event.banner }}">
+        </a>
+    </div>
+
+    <div class="col-md-5">
+    <div class="rotaract-color">
+        <h3>{{ event.shortName }}</h3>
+    </div>
+
+    <h4>{{ event.fullName }}</h4>
+    <p>{{ event.description }}</p>
+    <a class="btn btn-primary" target="_blank" href="{{ event.url }}">Ver Evento <i class="fa fa-chevron-right"></i>
+</a>
+    </div>
+</div>
+{% endfor %}

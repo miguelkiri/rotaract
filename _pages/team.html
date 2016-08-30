@@ -1,0 +1,15 @@
+---
+layout: default
+title: "Equipe"
+pageHeader: "Equipe Distrital 2016-2017"
+permalink: /team/
+---
+{% for person in site.data.team %}
+<div class="col-lg-4 col-sm-6 text-center">
+    <img class="img-circle img-responsive img-center" src="{{ site.data.global.url }}/assets/images/team/{{ person.photo }}">
+    <h3>
+        {{ person.name }}
+        <p><small>{{ person.jobTitle }}</small></p>
+    </h3>
+</div>
+{% endfor %}

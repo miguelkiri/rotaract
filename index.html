@@ -1,0 +1,50 @@
+---
+---
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include head.html %}
+    </head>
+    <body>
+        {% include navbar.html %}
+
+        <div class="container content">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="assets/images/banner.png" alt="Logo Rotaract Distrito 4540 - Ano rotário 2016-2017. Rotary à serviço da humanidade.">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    {{ site.data.nav.url }}
+                    <h2>O que é Rotaract club?</h2>
+
+                    <p>No Rotaract club você compartilha suas ideias e desenvolve sua habilidade de liderança. Formado por jovens de 18 a 30 anos, nossos sócios participam de projeto sociais em prol da comunidade local e desenvolvem todo o seu potencial profissional com os cargos administrativos.</p>
+
+                    <p><b>Venha fazer parte dessa comunidade global de jovens e faça a diferença!</b></p>
+                </div>
+            </div>
+
+            <hr/>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Mensagem do RDR Carlos Vinicius Romeiro Fonseca</h2>
+
+                    {% assign currentLetter = site.data.letters[0] %}
+                    {% capture letterContent %}{% include {{ currentLetter.fileName }} %}{% endcapture %}
+                    {{ letterContent | markdownify }}
+
+                    {% include rdrSignature.html %}
+                </div>
+            </div>
+
+            <hr/>
+
+            {% include footer.html %}
+        </div>
+
+        {% include scripts.html %}
+    </body>
+</html>

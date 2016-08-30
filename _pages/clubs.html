@@ -1,0 +1,38 @@
+---
+layout: default
+title: "Clubes"
+pageHeader: "Rotaract Clubs do Distrito 4540"
+permalink: /clubs/
+---
+{% for club in site.data.clubs %}
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            <a data-toggle="collapse" href="#collapse-{{ forloop.index }}">
+            {{ club.name }}
+            </a>
+        </h3>
+    </div>
+
+    <div id="collapse-{{ forloop.index }}" class="panel-collapse collapse">
+        <div class="panel-body">
+            <div class="col-sm-8">
+                <h3>Informações</h3>
+                <p><i class="fa fa-envelope-o"></i> <a target="_blank" href="mailto:{{ club.email }}"></a>{{ club.email }}</p>
+                <p><i class="fa fa-facebook-square"></i> <a target="_blank" href="{{ club.facebook }}">{{ club.facebook }}</a></p>
+                <p>Reuniões:</p>
+                <p><i class="fa fa-clock-o "></i> Horário: {{ club.meetingTime }}</p>
+                <p><i class="fa fa-location-arrow "></i> Local: {{ club.meetingAdress }}</p>
+            </div>
+
+            <div class="col-sm-4 text-center">
+                <h3>Presidente</h3>
+                <div class="col-sm-12">
+                    <img class="img-circle img-responsive img-center" src="{{ site.data.global.url }}/assets/images/clubs/{{ club.presidentPhoto }}">
+                </div>
+                <h3><small>{{ club.presidentName }}</small></h3>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}

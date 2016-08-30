@@ -1,0 +1,22 @@
+---
+layout: default
+title: "Cartas"
+pageHeader: "Cartas do Representante Distrital de Rotaract"
+permalink: /letters/
+---
+{% for letter in site.data.letters %}
+<div class="row">
+    <div class="col-lg-12">
+        <h2>{{ letter.title }}</h2>
+
+        {% capture letterContent %}{% include {{ letter.fileName }} %}{% endcapture %}
+        {{ letterContent | markdownify }}
+
+        {% include rdrSignature.html %}
+    </div>
+</div>
+
+{% if forloop.index != forloop.length %}
+<hr/>
+{% endif %}
+{% endfor %}
