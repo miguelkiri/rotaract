@@ -1,3 +1,13 @@
+/*
+References:
+    - https://www.rotary.org/myrotary/en/document/visual-identity-guidelines-rotarys-programs-young-leaders
+    - https://www.rotary.org/myrotary/en/document/quick-start-guide-club-websites
+*/
+
+$white: #FFFFFF;
+$cranberry: #D91B5C;
+$rotary-gold: #F7A81B;
+
 %open-sans-condensed {
     font-family: 'Open Sans Condensed';
 }
@@ -14,64 +24,64 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     @extend %open-sans-condensed;
 }
 
-.rotaract-color {
-    color: #d91b5c;
+.cranberry {
+    color: $cranberry;
 }
 
 .navbar {
     @extend %open-sans-condensed;
-    background-color: #d91b5c;
-    border-color: #d91b5c;
+    background-color: $cranberry;
+    border-color: $cranberry;
 }
 .navbar .navbar-brand {
-    color: #ffffff;
+    color: $white;
 }
 .navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
-    color: #f7a81b;
+    color: $rotary-gold;
 }
 .navbar .navbar-text {
-    color: #ffffff;
+    color: $white;
 }
 .navbar .navbar-nav > li > a {
-    color: #ffffff;
+    color: $white;
 }
 .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
-    color: #f7a81b;
+    color: $rotary-gold;
 }
 .navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus {
-    color: #f7a81b;
-    background-color: #d91b5c;
+    color: $rotary-gold;
+    background-color: $cranberry;
 }
 .navbar .navbar-nav > .open > a, .navbar .navbar-nav > .open > a:hover, .navbar .navbar-nav > .open > a:focus {
-    color: #f7a81b;
-    background-color: #d91b5c;
+    color: $rotary-gold;
+    background-color: $cranberry;
 }
 .navbar .navbar-toggle {
-    border-color: #d91b5c;
+    border-color: $cranberry;
 }
 .navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
-    background-color: #d91b5c;
+    background-color: $cranberry;
 }
 .navbar .navbar-toggle .icon-bar {
-    background-color: #ffffff;
+    background-color: $white;
 }
 .navbar .navbar-collapse, .navbar .navbar-form {
-    border-color: #ffffff;
+    border-color: $white;
 }
 .navbar .navbar-link {
-    color: #ffffff;
+    color: $white;
 }
 .navbar .navbar-link:hover {
-    color: #f7a81b;
+    color: $rotary-gold;
 }
 
 .navbar .navbar-nav .open .dropdown-menu > li > a {
-    color: #ffffff;
+    color: $white;
 }
 .navbar .navbar-nav .open .dropdown-menu > li > a:hover, .navbar .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #f7a81b;
+    color: $rotary-gold;
 }
 .navbar .navbar-nav .open .dropdown-menu > .active > a, .navbar .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #f7a81b;
-    background-color: #d91b5c;
+    color: $rotary-gold;
+    background-color: $cranberry;
 }
