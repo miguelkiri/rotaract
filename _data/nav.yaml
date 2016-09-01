@@ -1,6 +1,5 @@
-# we'll need /rotaract until we change the redirection on current (prod) host
 main:
-    - { url: 'http://polio.rotaract4540.org', text: 'End Polio Now' }
+    - { url: 'http://polio.rotaract4540.org', text: 'Doses Contra a Pólio' }
     - { url: '/letters', text: 'Cartas do RDR' }
     - { url: '/clubs', text: 'Clubes' }
     - { url: '/calendar', text: 'Agenda' }
