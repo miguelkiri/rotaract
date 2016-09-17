@@ -1,0 +1,26 @@
+---
+layout: default
+title: "Resoluções"
+pageHeader: "Resoluções 2016/2017"
+permalink: /documents/resolutions/
+---
+<div class="row">
+    <div class="col-lg-12 text-justify">
+        <table class="table the-table table-bordered">
+            <thead>
+                <tr>
+                    <th class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-center">Resolução</th>
+                    <th class="col-lg-11 col-md-11 col-sm-11 col-xs-11 text-center">Descrição</th>
+                </tr>
+            </thead>
+            <tbody class="text-nowrap">
+                {% for resolution in site.data.documents.resolutions %}
+                <tr>
+                    <td><a data-toggle="tooltip" data-original-title="Baixar {{resolution.name}}" href="/downloads/{{ resolution.fileName }}">{{ resolution.id }}</a></td>
+                    <td class="truncate-text" data-toggle="tooltip" data-original-title="{{ resolution.headline }}">{{ resolution.headline }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
