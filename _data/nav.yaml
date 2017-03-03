@@ -1,5 +1,6 @@
 main:
     - { url: 'http://polio.rotaract4540.org', text: 'Doses Contra a Pólio' }
+    - { url: '/codirc', text: 'CODIRC 2017' }
     - { url: '/letters', text: 'Cartas do RDR' }
     - { url: '/clubs', text: 'Clubes' }
     - { url: '/calendar', text: 'Agenda' }
