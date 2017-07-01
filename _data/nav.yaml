@@ -1,7 +1,7 @@
 main:
-    - { url: '/clubs', text: 'Clubes' }
+    # - { url: '/clubs', text: 'Clubes' }
     - { url: '/calendar', text: 'Agenda' }
     - { url: '/events', text: 'Eventos' }
-    - { url: '/team', text: 'Equipe' }
+    # - { url: '/team', text: 'Equipe' }
     - { url: '/documents', text: 'Documentos' }
     - { url: '/contact', text: 'Contato' }
