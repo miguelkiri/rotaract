@@ -1,5 +1,6 @@
 main:
     - { url: '/letters', text: 'Cartas da RDR' }
+    - { url: '/coin', text: 'Uma moeda faz a diferença' }
     # - { url: '/clubs', text: 'Clubes' }
     - { url: '/calendar', text: 'Agenda' }
     - { url: '/events', text: 'Eventos' }
