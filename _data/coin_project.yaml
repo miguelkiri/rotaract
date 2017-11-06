@@ -1,0 +1,63 @@
+-
+    reference: Outubro
+    clubs:
+        -
+            name: São Joaquim da Barra
+            value: 300
+        -
+            name: Monte Alto
+            value: 133
+        -
+            name: Franca
+            value: 70
+        -
+            name: Jaboticabal
+            value: 32
+        -
+            name: Passos
+            value: 30
+        -
+            name: Ribeirão Preto Oeste
+            value: 27
+-
+    reference: Setembro
+    clubs:
+        -
+            name: Tambaú
+            value: 118
+        -
+            name: São Joaquim da Barra
+            value: 60
+        -
+            name: Jardinópolis
+            value: 30
+        -
+            name: Franca
+            value: 15
+-
+    reference: Geral
+    clubs:
+        -
+            name: São Joaquim da Barra
+            value: 360
+        -
+            name: Monte Alto
+            value: 133
+        -
+            name: Tambaú
+            value: 118
+        -
+            name: Franca
+            value: 85
+        -
+            name: Jaboticabal
+            value: 32
+        -
+            name: Jardinópolis
+            value: 30
+        -
+            name: Passos
+            value: 30
+        -
+            name: Ribeirão Preto Oeste
+            value: 27

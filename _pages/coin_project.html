@@ -4,9 +4,11 @@ title: "Projeto Distrital: Uma moeda faz a diferença"
 pageHeader: "Uma moeda faz a diferença"
 permalink: /coin/
 ---
+
+{% for ranking in site.data.coin_project %}
 <div class="row">
     <div class="col-md-6 col-md-offset-2">
-        <h2 class="text-center">Ranking - Setembro</h2>
+        <h2 class="text-center">Ranking - {{ ranking.reference }}</h2>
         <table class="table table-bordered table-condensed table-striped">
             <thead>
                 <tr>
@@ -15,35 +17,31 @@ permalink: /coin/
                     <th>Valor arrecadado</th>
                 </tr>
             </thead>
+            <tbody>
+                {% assign total = 0 %}
+                {% assign position = 0 %}
+                {% for club in ranking.clubs %}
+                {% assign total = total | plus: club.value %}
+                {% assign position = position | plus: 1 %}
+                <tr>
+                    <td>{{ position }}ª</td>
+                    <td>{{ club.name }}</td>
+                    <td>R$ {{ club.value }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
             <tfoot>
                 <tr>
                     <td></td>
                     <td><b>Total arrecadado</b></td>
-                    <td><b>R$ 223</b></td>
+                    <td><b>R$ {{ total }}</b></td>
                 </tr>
-              </tfoot>
-            <tbody>
-                <tr>
-                    <td>1ª</td>
-                    <td>Tambaú</td>
-                    <td>R$ 118</td>
-                </tr>
-                <tr>
-                    <td>2ª</td>
-                    <td>São Joaquim da Barra</td>
-                    <td>R$ 60</td>
-                </tr>
-                <tr>
-                    <td>3ª</td>
-                    <td>Jardinópolis</td>
-                    <td>R$ 30</td>
-                </tr>
-                <tr>
-                    <td>4ª</td>
-                    <td>Franca</td>
-                    <td>R$ 15</td>
-                </tr>
-            </tbody>
+            </tfoot>
         </table>
     </div>
 </div>
+
+{% if forloop.index != forloop.length %}
+<hr/>
+{% endif %}
+{% endfor %}
