@@ -1,4 +1,19 @@
 -
+    reference: Novembro
+    clubs:
+        -
+            name: Jaboticabal
+            value: 210
+        -
+            name: São Joaquim da Barra
+            value: 155
+        -
+            name: Monte Alto
+            value: 115
+        -
+            name: Franca
+            value: 40
+-
     reference: Outubro
     clubs:
         -
@@ -39,19 +54,19 @@
     clubs:
         -
             name: São Joaquim da Barra
-            value: 360
+            value: 455
         -
             name: Monte Alto
-            value: 133
+            value: 248
+        -
+            name: Jaboticabal
+            value: 242
         -
             name: Tambaú
             value: 118
         -
             name: Franca
-            value: 85
-        -
-            name: Jaboticabal
-            value: 32
+            value: 110
         -
             name: Jardinópolis
             value: 30
