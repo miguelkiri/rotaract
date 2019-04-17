@@ -7,3 +7,4 @@ main:
     # - { url: '/team', text: 'Equipe' }
     - { url: '/documents', text: 'Documentos' }
     - { url: '/contact', text: 'Contato' }
+    - { url: 'https://docs.google.com/forms/d/e/1FAIpQLScDEeYXkKgXzCXTj4GV1y2fyAENLOtjpvnhuIBp2KQtLM5yjQ/closedform', text: 'Cadastro - EAP'}
