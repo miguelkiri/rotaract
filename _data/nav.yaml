@@ -7,4 +7,4 @@ main:
     # - { url: '/team', text: 'Equipe' }
     - { url: '/documents', text: 'Documentos' }
     - { url: '/contact', text: 'Contato' }
-    - { url: 'https://forms.gle/tsSNMaG5tmov8SVU9m', text: 'Cadastro - EAP'}
+    - { url: 'https://forms.gle/tsSNMaG5tmov8SVU9', text: 'Cadastro - EAP'}
